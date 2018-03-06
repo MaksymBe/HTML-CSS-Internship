@@ -70,7 +70,10 @@ aside p{
 }
 
 .main section{
+    border-bottom: solid 1px lightgrey;
+    width: 70%;
     position: relative;
+    padding-bottom: 10px;
     margin-bottom: 10px;
     margin-left: 20px;
 }
@@ -94,7 +97,7 @@ section h3.category-name{
 }
 
 .content {
-    width: 70%;
+    width: 100%;
     /*vertical-align: top;*/
     font-weight: normal;
     font-size: small;
