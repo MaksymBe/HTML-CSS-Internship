@@ -1,15 +1,39 @@
-body{
-    border-top: solid 5px mediumseagreen;
-
+*{
+    padding: 0;
+    margin: 0;
 }
 
 header{
+    border-top: solid 5px mediumseagreen;
+    border-bottom: solid 3px lightgrey;
     display: flex;
     height: 200px;
+    width: 98%;
+    position: fixed;
+    top: 0;
+    margin: 0 1% 0 1%;
+    background-color: white;
 }
 
 th{
     padding: 10px;
+}
+
+aside{
+    overflow: auto;
+    position: fixed;
+    padding-left: 3%;
+    left: 20px;
+    top: 205px;
+    width: 26%;
+    height: 100%;
+    border-right: solid 1px lightgrey;
+}
+
+aside p{
+    font-weight: normal;
+    font-size: small;
+    text-align: justify;
 }
 
 .name {
@@ -18,34 +42,67 @@ th{
 }
 
 .photo {
+    float: right;
     margin: 20px auto 20px 20px;
     border-radius: 50%;
     height: 80%;
+}
+
+.main{
+    border-top: solid 3px lightgrey;
+    width: 90%;
+    padding-top: 5px;
+    margin: 205px 5% 0 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.information{
+    position: relative;
+    z-index: -1;
+    margin-left: 29%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.main section{
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: 20px;
 }
 
 .main-table {
     border-top: solid 3px lightgrey;
     width: 90%;
     padding-top: 5px;
-    margin: 5px 5% 0 5%;
+    margin: 205px 5% 0 5%;
 }
 
 .category-name {
-    width: 10%;
-    vertical-align: top;
-    text-align: left;
+    margin: 20px 0 20px 0;
+    width: 20%;
+    /*vertical-align: top;
+    text-align: left;*/
     color: dimgrey;
+}
+section h3.category-name{
+    margin-left: 25px;
 }
 
 .content {
-    width: 40%;
-    vertical-align: top;
+    width: 70%;
+    /*vertical-align: top;*/
     font-weight: normal;
     font-size: small;
     text-align: justify;
 }
 
-th>ul{
+ul{
+    list-style-type: none;
     margin-top: 0;
 }
 
@@ -55,4 +112,12 @@ a.github-img {
     width: 20px;
     background-image: url("github-logo.svg");
     background-size: 20px 20px;
+}
+
+.badge {
+    position: absolute;
+    top: 22px;
+    height: 15px;
+    width: 15px;
+    background-color: lightgrey;
 }
