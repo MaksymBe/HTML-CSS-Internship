@@ -124,3 +124,9 @@ a.github-img {
     width: 15px;
     background-color: lightgrey;
 }
+
+.floating {
+    float:left;
+    width: 30%;
+    margin-right: 3.3%;
+}
