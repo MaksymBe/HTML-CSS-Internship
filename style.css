@@ -71,7 +71,7 @@ aside p {
 
 .main section {
     border-bottom: solid 1px lightgrey;
-    width: 70%;
+    width: 90%;
     position: relative;
     padding-bottom: 10px;
     margin-bottom: 10px;
@@ -136,7 +136,7 @@ a.github-img {
         width: 100%;
         border-top: solid 3px lightgrey;
         border-right: 0;
-        font-size: x-large;
+        font-size: small;
     }
 
     aside div{
@@ -148,8 +148,7 @@ a.github-img {
     aside div .content{
         margin: 0 0 20px 0;
         text-align: left;
-        font-size: large;
-
+        font-size: small;
     }
 
     .information {
