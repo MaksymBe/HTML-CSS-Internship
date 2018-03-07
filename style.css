@@ -121,6 +121,15 @@ a.github-img {
     margin-right: 3.3%;
 }
 
+@media(max-height: 400px){
+    aside div {
+        padding-top: 10px;
+    }
+    aside div .category-name{
+        margin: 10px auto;
+    }
+}
+
 @media(orientation: portrait){
     .main section{
         width: 100%;
