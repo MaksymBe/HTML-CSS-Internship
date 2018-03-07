@@ -136,11 +136,10 @@ a.github-img {
         width: 100%;
         border-top: solid 3px lightgrey;
         border-right: 0;
-        justify-content: space-evenly;
     }
 
     aside div{
-        margin: 0 5px;
+        margin: 0 auto;
     }
 
 
