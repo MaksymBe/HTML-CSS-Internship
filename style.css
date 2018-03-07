@@ -136,6 +136,7 @@ a.github-img {
         width: 100%;
         border-top: solid 3px lightgrey;
         border-right: 0;
+        font-size: x-large;
     }
 
     aside div{
@@ -147,6 +148,8 @@ a.github-img {
     aside div .content{
         margin: 0 0 20px 0;
         text-align: left;
+        font-size: large;
+
     }
 
     .information {
