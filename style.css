@@ -139,6 +139,12 @@ a.github-img {
         justify-content: space-evenly;
     }
 
+    aside div{
+        margin: 0 5px;
+    }
+
+
+
     aside div .content{
         margin: 0 0 20px 0;
         text-align: left;
