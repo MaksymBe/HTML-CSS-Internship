@@ -1,13 +1,13 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-header{
+header {
     border-top: solid 5px mediumseagreen;
     border-bottom: solid 3px lightgrey;
     display: flex;
-    height: 200px;
+    height: 20vh;
     width: 98%;
     position: fixed;
     top: 0;
@@ -15,22 +15,22 @@ header{
     background-color: white;
 }
 
-th{
+th {
     padding: 10px;
 }
 
-aside{
+aside {
     overflow: auto;
     position: fixed;
     padding-left: 3%;
     left: 20px;
-    top: 205px;
+    top: 21vh;
     width: 26%;
     height: 100%;
     border-right: solid 1px lightgrey;
 }
 
-aside p{
+aside p {
     font-weight: normal;
     font-size: small;
     text-align: justify;
@@ -43,22 +43,22 @@ aside p{
 
 .photo {
     float: right;
-    margin: 20px auto 20px 20px;
+    margin: auto;
     border-radius: 50%;
     height: 80%;
 }
 
-.main{
+.main {
     border-top: solid 3px lightgrey;
     width: 90%;
     padding-top: 5px;
-    margin: 205px 5% 0 5%;
+    margin: 20vh 5% 0 5%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.information{
+.information {
     position: relative;
     z-index: -1;
     margin-left: 29%;
@@ -69,7 +69,7 @@ aside p{
 
 }
 
-.main section{
+.main section {
     border-bottom: solid 1px lightgrey;
     width: 70%;
     position: relative;
@@ -78,33 +78,23 @@ aside p{
     margin-left: 20px;
 }
 
-.main-table {
-    border-top: solid 3px lightgrey;
-    width: 90%;
-    padding-top: 5px;
-    margin: 205px 5% 0 5%;
-}
-
 .category-name {
     margin: 20px 0 20px 0;
-    width: 20%;
-    /*vertical-align: top;
-    text-align: left;*/
     color: dimgrey;
 }
-section h3.category-name{
+
+section h3.category-name {
     margin-left: 25px;
 }
 
 .content {
     width: 100%;
-    /*vertical-align: top;*/
     font-weight: normal;
     font-size: small;
     text-align: justify;
 }
 
-ul{
+ul {
     list-style-type: none;
     margin-top: 0;
 }
@@ -126,7 +116,57 @@ a.github-img {
 }
 
 .floating {
-    float:left;
+    float: left;
     width: 30%;
     margin-right: 3.3%;
+}
+
+@media(orientation: portrait){
+    .main section{
+        width: 100%;
+    }
+
+    aside {
+        background-color: #d0d0d06e;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        position: unset;
+        overflow: auto;
+        width: 100%;
+        border-top: solid 3px lightgrey;
+        border-right: 0;
+        justify-content: space-evenly;
+    }
+
+    aside div .content{
+        margin: 0 0 20px 0;
+        text-align: left;
+    }
+
+    .information {
+        position: relative;
+        z-index: -1;
+        margin-left: 2%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+
+    }
+
+    aside div ul li{
+        padding-bottom: 10px;
+    }
+
+    section h4{
+        width: 100%;
+        font-weight: normal;
+        text-align: justify;
+    }
+
+    .floating{
+        width: 100%;
+    }
 }
