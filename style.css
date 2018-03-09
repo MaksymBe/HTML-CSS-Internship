@@ -43,12 +43,12 @@ aside p {
 
 .photo {
     float: right;
-    margin: auto;
+    margin: auto 0;
     border-radius: 50%;
     height: 80%;
 }
 
-.main {
+main {
     border-top: solid 3px lightgrey;
     width: 90%;
     padding-top: 5px;
@@ -69,7 +69,7 @@ aside p {
 
 }
 
-.main section {
+main section {
     border-bottom: solid 1px lightgrey;
     width: 90%;
     position: relative;
@@ -131,7 +131,7 @@ a.github-img {
 }
 
 @media(orientation: portrait){
-    .main section{
+    main section{
         width: 100%;
     }
 
@@ -185,4 +185,10 @@ a.github-img {
     .floating{
         width: 100%;
     }
+}
+
+.header-container {
+    display: flex;
+    height: 100%;
+    width: 90%;
 }
