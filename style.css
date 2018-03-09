@@ -139,13 +139,15 @@ a.github-img {
 
 @media (orientation: portrait), (max-width: 768px) {
     header {
+        position: absolute;
         display: flex;
-        height: 15vh;
+        height: 20vh;
         font-size: 0.7em;
     }
 
     main {
-        margin: 15vh 0 0 5%;
+        width: 92%;
+        margin: 20vh 0 0 3%;
     }
 
     main section {
@@ -181,7 +183,7 @@ a.github-img {
         position: relative;
         z-index: -1;
         margin-left: -2%;
-        width: 95%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -203,9 +205,9 @@ a.github-img {
 
     .header-container {
         display: flex;
-        margin-left: 5%;
+        margin-left: 7%;
         height: 100%;
-        width: 87%;
+        width: 90%;
     }
 }
 
